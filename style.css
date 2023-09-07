@@ -44,3 +44,41 @@ img{
     font-weight: 300;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+@media (max-width: 550px) {
+    .contador{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        font-size: 2.5em;
+        color: rgb(255, 8, 82);
+    }
+
+    img{
+        width: 30%;
+        height: 30%;
+        margin-top: 3%;
+        border-radius: 5%;
+    }
+}
+
+@media (max-width: 350px) {
+    .contador{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        color: rgb(255, 8, 82);
+    }
+
+    img{
+        width: 40%;
+        height: 40%;
+        margin-top: 3%;
+        border-radius: 5%;
+    }
+}
